@@ -1,0 +1,18 @@
+SUBMISSION CHECKLIST (CW1)
+
+1) Archive name: MLDA.CW1.<YourID>.zip
+2) Include:
+   - report/Report.docx (fill it)
+   - notebooks/*.ipynb (fill/run them)
+   - data/raw/classified_abstracts.json
+   - src/ and app/
+   - requirements.txt, README.md, LICENSE
+
+3) Do NOT include:
+   - .venv
+   - __pycache__
+   - huge artifacts unless required
+
+Commands:
+- Train: python -m src.train
+- Run app: python -m streamlit run app/Home.py
